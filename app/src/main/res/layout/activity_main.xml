@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <!-- Guideline Horizontal al 25% -->
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline_horizontal"
         android:layout_width="wrap_content"
@@ -14,7 +13,6 @@
         android:orientation="horizontal"
         app:layout_constraintGuide_end="548dp" />
 
-    <!-- Guideline Vertical al 50% -->
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline_vertical"
         android:layout_width="wrap_content"
@@ -22,7 +20,6 @@
         android:orientation="vertical"
         app:layout_constraintGuide_percent="0.5" />
 
-    <!-- ImageView para la imagen del cupcake -->
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="0dp"
@@ -34,12 +31,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHeight_percent="0.25" />
-
-    <!-- TextView para el título "Cupcakes" sobre la imagen -->
-
-    <!-- TextView para el autor sobre la imagen -->
-
-    <!-- TextView Título Descripción -->
 
     <TextView
         android:id="@+id/titulo_producto"
@@ -82,7 +73,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/guideline_horizontal" />
 
-    <!-- TextView Contenido Descripción -->
     <TextView
         android:id="@+id/contenido_descripcion"
         android:layout_width="0dp"
@@ -96,12 +86,6 @@
         app:layout_constraintEnd_toStartOf="@id/guideline_vertical"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/titulo_descripcion" />
-
-    <!-- TextView Título Ingredientes -->
-
-    <!-- TextView Contenido Ingredientes -->
-
-    <!-- TextView Título Receta -->
 
     <TextView
         android:id="@+id/titulo_ingredientes"
@@ -144,7 +128,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/contenido_ingredientes" />
 
-    <!-- TextView Contenido Receta Centrando Horizontalmente -->
     <TextView
         android:id="@+id/contenido_receta"
         android:layout_width="0dp"
